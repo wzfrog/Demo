@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>runmode</key>
+	<integer>0</integer>
+	<key>serverentry</key>
+	<string>http://tvos.skysrt.com/webservices/webservice_ep.php</string>
+	<key>resourcenamespace</key>
+	<string>http://skyworth.com/resource2/api</string>
+	<key>adnamespace</key>
+	<string>http://skyworth.com/ad/api</string>
+	<key>usernamespace</key>
+	<string>http://tvos.skysrt.com/Framework/tvos/index.php/base/user/userAction</string>
+	<key>fileuploadpath</key>
+	<string>http://tvos.skysrt.com/webservices/upload/fileUpload.php</string>
+</dict>
+</plist>

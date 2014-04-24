@@ -1,0 +1,22 @@
+//
+//  TypeMapping.m
+//  SrtIOSFramework
+//
+//  Created by  on 12-4-21.
+//  Copyright (c) 2012年 Rico. All rights reserved.
+//
+
+#import "TypeMapping.h"
+
+@implementation TypeMapping
+//NSString * const NSNumber *Type = @"l";
+
+//NSString * const NSNumber *Type = @"d";
+
+NSString * const booleanType = @"C";
+
+//NSString * const intType = @"i";
+
+NSString * const nsNumberType = @"NSNumber";
+
+@end

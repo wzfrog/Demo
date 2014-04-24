@@ -7,6 +7,7 @@
 //
 
 #import "SKYViewController.h"
+#import "SKYAuthor.h"
 
 @interface SKYViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    SKYAuthor *author = [[SKYAuthor alloc] init];
+    [author getAuthorizationCode];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -25,5 +29,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end
